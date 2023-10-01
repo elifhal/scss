@@ -1,0 +1,213 @@
+.navbar {
+  background-color: transparent;
+  padding: 15px;
+}
+
+.navbar .navbar-brand {
+  font-family: "Varela Round", sans-serif;
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+  color: #6c757d;
+}
+
+.navbar .navbar-toggler-icon {
+  background-color: #007bff;
+}
+
+.navbar .nav-link {
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  color: #007bff;
+}
+
+.navbar .nav-link:hover, .navbar .nav-link:focus {
+  color: #6c757d;
+}
+
+.masthead {
+  background-image: url("assets/img/bg-masthead.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.masthead .text-center {
+  color: white;
+}
+
+.masthead .text-center h1 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.masthead .text-center h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.masthead .text-center .btn-primary {
+  background-color: #007bff;
+  border: none;
+  font-family: "Nunito", sans-serif;
+}
+
+.masthead .text-center .btn-primary:hover, .masthead .text-center .btn-primary:focus {
+  background-color: #6c757d;
+}
+
+.about-section {
+  background-color: #343a40;
+  padding: 80px 0;
+}
+
+.about-section .text-white {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.25rem;
+}
+
+.about-section img {
+  max-width: 100%;
+}
+
+.projects-section {
+  padding: 80px 0;
+}
+
+.projects-section .img-fluid {
+  max-width: 100%;
+}
+
+.projects-section .project-text h4 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.projects-section .project-text p {
+  font-family: "Nunito", sans-serif;
+  color: #6c757d;
+}
+
+.signup-section {
+  background-color: #343a40;
+  padding: 80px 0;
+}
+
+.signup-section .fa-paper-plane {
+  color: #007bff;
+}
+
+.signup-section h2 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.signup-section .form-signup input[type="email"] {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #007bff;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.signup-section .form-signup input[type="email"]:focus {
+  outline: none;
+  border-color: #6c757d;
+}
+
+.signup-section .form-signup button {
+  background-color: #007bff;
+  border: none;
+  font-family: "Nunito", sans-serif;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.signup-section .form-signup button:hover, .signup-section .form-signup button:focus {
+  background-color: #6c757d;
+}
+
+.signup-section .form-signup .invalid-feedback {
+  color: red;
+}
+
+.signup-section .form-signup #submitSuccessMessage .fw-bolder {
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+
+.signup-section .form-signup #submitSuccessMessage a {
+  color: #007bff;
+}
+
+.signup-section .form-signup #submitErrorMessage {
+  color: red;
+}
+
+.contact-section {
+  padding: 80px 0;
+}
+
+.contact-section .fa-map-marked-alt,
+.contact-section .fa-envelope,
+.contact-section .fa-mobile-alt {
+  color: #007bff;
+  font-size: 2rem;
+}
+
+.contact-section h4 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.contact-section .small {
+  color: #6c757d;
+}
+
+.contact-section .small a {
+  color: #007bff;
+}
+
+.contact-section .social a {
+  color: #007bff;
+  font-size: 1.5rem;
+  margin: 0 5px;
+}
+
+.contact-section .social a:hover, .contact-section .social a:focus {
+  color: #6c757d;
+}
+
+.footer {
+  padding: 15px 0;
+}
+
+.footer a {
+  color: #007bff;
+}
+
+.footer a:hover, .footer a:focus {
+  color: #6c757d;
+}
+/*# sourceMappingURL=main.css.map */

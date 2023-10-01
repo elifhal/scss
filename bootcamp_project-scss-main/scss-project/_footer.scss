@@ -1,0 +1,12 @@
+.footer {
+    padding: 15px 0;
+    
+    a {
+      color: $primary-color;
+      
+      &:hover,
+      &:focus {
+        color: $secondary-color;
+      }
+    }
+  }

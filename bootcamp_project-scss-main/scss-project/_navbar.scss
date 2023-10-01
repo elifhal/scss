@@ -1,0 +1,31 @@
+.navbar {
+    background-color: transparent;
+    padding: 15px;
+    
+    .navbar-brand {
+      font-family: $font-family-display;
+      font-size: 2rem;
+      color: $primary-color;
+      
+      &:hover,
+      &:focus {
+        color: $secondary-color;
+      }
+    }
+    
+    .navbar-toggler-icon {
+      background-color: $primary-color;
+    }
+    
+    .nav-link {
+      font-family: $font-family-sans-serif;
+      font-size: 1rem;
+      color: $primary-color;
+      
+      &:hover,
+      &:focus {
+        color: $secondary-color;
+      }
+    }
+  }
+  
